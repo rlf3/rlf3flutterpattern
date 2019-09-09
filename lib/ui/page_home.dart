@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_collections/widgets/bottom_navigationBar.dart';
+import 'package:rlf3flutterpattern/widgets/bottom_navigationBar.dart';
 
 import '../main.dart';
 import 'page_coming_soon.dart';
