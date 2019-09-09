@@ -70,3 +70,21 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  assets:
+    - assets/
+    - assets/icnfb.png
+    - assets/icngmail.png
+    - assets/icn_twitter.png
+    - assets/imgforgot.png
+    - assets/logo_splash.png
+    - assets/icn_coming_soon.png
+  # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Exo2SemiBold
+      fonts:
+        - asset: fonts/Exo2-SemiBold.ttf
+          weight: 800
+    - family: Exo2
+      fonts:
+        - asset: fonts/Exo2-Regular.ttf
+          weight: 800
