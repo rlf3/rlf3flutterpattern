@@ -31,7 +31,7 @@ class _BottomNavBarState extends State<BottomNavBar>
       showUnselectedLabels: true,
       onTap: (int index) {
         setState(() {
-          if (index != 4) {
+          if (index != 5) {//to increment more tabs you have to add 5 tabs, 5 index
             tab = index;
             widget.changeCurrentTab(index);
           }
@@ -55,9 +55,15 @@ class _BottomNavBarState extends State<BottomNavBar>
         ),
         BottomNavigationBarItem(
           backgroundColor: Colors.grey.shade50,
+          icon: Icon(Icons.map),
+          title: Text('Map', style: TextStyle(fontFamily: 'Exo2')),
+        ),
+        BottomNavigationBarItem(
+          backgroundColor: Colors.grey.shade50,
           icon: Icon(Icons.settings),
           title: Text('Setting', style: TextStyle(fontFamily: 'Exo2')),
         ),
+
       ],
     );
   }

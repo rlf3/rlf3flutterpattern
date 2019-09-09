@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rlf3flutterpattern/ui/page_map.dart';
 import 'package:rlf3flutterpattern/widgets/bottom_navigationBar.dart';
 
 import '../main.dart';
@@ -8,6 +9,7 @@ import 'page_profile.dart';
 import 'page_search.dart';
 import 'page_settings.dart';
 import 'page_signup.dart';
+
 
 class HomePage extends StatefulWidget {
   @override
@@ -61,8 +63,12 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         break;
       case 3:
         //Setting Page
-        tabView = [SettingPage()];
+        tabView = [MapPage()];
         break;
+      case 4:
+        //Setting Page
+        tabView = [SettingPage()];
+        break;        
     }
     return PageView(controller: pageController, children: tabView);
   }
