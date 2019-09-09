@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_ui_collections/ui/page_splash.dart';
+import 'package:rlf3flutterpattern/ui/page_splash.dart';
 import 'ui/page_home.dart';
 import 'ui/page_login.dart';
 import 'ui/page_onboarding.dart';

@@ -2,8 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_collections/utils/utils.dart';
-import 'package:flutter_ui_collections/widgets/visibility.dart';
+import 'package:rlf3flutterpattern/utils/utils.dart';
+import 'package:rlf3flutterpattern/widgets/visibility.dart';
 
 class SwitchRow extends StatelessWidget {
   final String label;

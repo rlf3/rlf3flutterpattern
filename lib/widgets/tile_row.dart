@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_collections/utils/utils.dart';
-import 'package:flutter_ui_collections/widgets/widgets.dart';
+import 'package:rlf3flutterpattern/utils/utils.dart';
+import 'package:rlf3flutterpattern/widgets/widgets.dart';
 
 
 class TileRow extends StatelessWidget {

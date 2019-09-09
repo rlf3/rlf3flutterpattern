@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_collections/model/models.dart';
-import 'package:flutter_ui_collections/services/services.dart';
-import 'package:flutter_ui_collections/utils/utils.dart';
+import 'package:rlf3flutterpattern/model/models.dart';
+import 'package:rlf3flutterpattern/services/services.dart';
+import 'package:rlf3flutterpattern/utils/utils.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 class PhotosList extends StatefulWidget {

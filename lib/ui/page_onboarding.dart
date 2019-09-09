@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_collections/ui/page_login.dart';
-import 'package:flutter_ui_collections/utils/Constants.dart';
-import 'package:flutter_ui_collections/widgets/dots_indicator.dart';
-import 'package:flutter_ui_collections/utils/utils.dart';
+import 'package:rlf3flutterpattern/ui/page_login.dart';
+import 'package:rlf3flutterpattern/utils/Constants.dart';
+import 'package:rlf3flutterpattern/widgets/dots_indicator.dart';
+import 'package:rlf3flutterpattern/utils/utils.dart';
 import '../LocalBindings.dart';
 import 'intro_page.dart';
 

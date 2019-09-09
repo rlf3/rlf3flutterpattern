@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_collections/utils/utils.dart';
+import 'package:rlf3flutterpattern/utils/utils.dart';
 
 class HorizontalList extends StatefulWidget {
   final List<Widget> children;

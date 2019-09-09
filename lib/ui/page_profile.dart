@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_ui_collections/ui/photo_list.dart';
-import 'package:flutter_ui_collections/utils/utils.dart';
-import 'package:flutter_ui_collections/widgets/utils_widget.dart';
-import 'package:flutter_ui_collections/widgets/widgets.dart';
+import 'package:rlf3flutterpattern/ui/photo_list.dart';
+import 'package:rlf3flutterpattern/utils/utils.dart';
+import 'package:rlf3flutterpattern/widgets/utils_widget.dart';
+import 'package:rlf3flutterpattern/widgets/widgets.dart';
 
 class ProfilePage extends StatefulWidget {
   @override
